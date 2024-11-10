@@ -170,7 +170,7 @@ def show_management_tab():
                 )
                 new_assigned = st.selectbox(
                     "Asignado a:",
-                    ["Juan", "Jose"],
+                    ["Juan", "Jose", "Los dos"],
                     index=0 if task['asignado_a'] == "Juan" else 1,
                     key=f"edit_assigned_{task['_id']}"
                 )
